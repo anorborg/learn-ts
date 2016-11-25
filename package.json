@@ -1,0 +1,12 @@
+{
+  "name": "learn-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bar.js",
+  "scripts": {
+    "build": "tsc --project ./src/bar/tsconfig.json",
+    "test": "node dist/bar.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

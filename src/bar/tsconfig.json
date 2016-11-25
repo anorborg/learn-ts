@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "outDir": "../../dist",
+        "paths": {
+            "*": ["*", "../../custom_modules/@types/*"]
+        }
+    }
+}
